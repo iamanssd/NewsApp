@@ -6,6 +6,51 @@
     "source": "Reuters",
     "url": "https://reuters.com",
     "publishedAt": "2026-01-01T12:00:00Z",
-    "topics": ["AI", "Technology"]
+    "topic": ["AI", "Technology"]
+  },
+  {
+    "id": "2",
+    "title": "Markets Close Higher After Strong Tech Earnings",
+    "summary": "Major indexes rose as large-cap tech companies reported better-than-expected results.",
+    "source": "Bloomberg",
+    "url": "https://bloomberg.com",
+    "publishedAt": "2026-01-05T21:30:00Z",
+    "topic": ["Finance", "Markets"]
+  },
+  {
+    "id": "3",
+    "title": "New Climate Accord Targets Faster Emissions Cuts",
+    "summary": "Leaders agreed to accelerate timelines for reducing greenhouse gas emissions.",
+    "source": "BBC",
+    "url": "https://bbc.com",
+    "publishedAt": "2026-01-04T08:15:00Z",
+    "topic": ["Global", "Climate"]
+  },
+  {
+    "id": "4",
+    "title": "Startups Race to Build Safer Consumer AI Tools",
+    "summary": "A new wave of products focuses on privacy controls and transparent data use.",
+    "source": "The Verge",
+    "url": "https://theverge.com",
+    "publishedAt": "2026-01-03T14:05:00Z",
+    "topic": ["AI", "Technology"]
+  },
+  {
+    "id": "5",
+    "title": "City Council Approves Budget With Expanded Transit Funding",
+    "summary": "The plan increases funding for bus lanes, late-night service, and station upgrades.",
+    "source": "AP News",
+    "url": "https://apnews.com",
+    "publishedAt": "2026-01-02T18:45:00Z",
+    "topic": ["Politics", "Local"]
+  },
+  {
+    "id": "6",
+    "title": "Cybersecurity Report Warns of Rising Phishing Campaigns",
+    "summary": "Analysts say attackers are using more convincing lures and targeted branding.",
+    "source": "WSJ",
+    "url": "https://wsj.com",
+    "publishedAt": "2026-01-05T06:20:00Z",
+    "topic": ["Technology", "Security"]
   }
 ]

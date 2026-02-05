@@ -45,3 +45,18 @@ Add these to the ```<head>```:
 <meta name="apple-mobile-web-app-title" content="NewsApp" />
 <link rel="manifest" href="/pwa-logo/site.webmanifest" />
 ```
+
+# Repo Cleanup Summary (2026-02-04)
+- Removed unused `TopicTabs` and `TopBriefing` components because they were not imported anywhere and no longer match the current UI direction.
+- Reorganized news feature into `api/`, `model/`, and `ui/` folders to separate data access, types, and presentation for clearer scaling.
+- Moved `NewsList` into `ui/`, `api.ts` into `api/newsApi.ts`, and `types.ts` into `model/types.ts` to align with the new structure and reduce top-level clutter.
+
+
+## Explanation of File Structure After "The Great Purge" (Codex Restructuring)
+- `main.tsx` – app entry; renders <App />.
+- `App.tsx` – top‑level shell; currently just renders NewsList.
+- `index.ts` – public export for the news feature.
+- `NewsList.tsx` – main UI for the news list; loads data + renders list.
+- `newsApi.ts` – data fetching (currently from news.json).
+- `types.ts` – domain types (NewsArticle, Topic).
+- `news.json` – mock data 

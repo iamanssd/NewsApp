@@ -1,6 +1,6 @@
 
 
-import type { NewsArticle } from "./types"
+import type { NewsArticle } from "../model/types"
 
 export async function fetchNews(): Promise<NewsArticle[]> {
   const res = await fetch("/data/news.json")
